@@ -1,0 +1,191 @@
+{
+  "name": "LifeExpectancy Dark",
+  "dataColors": [
+    "#D4547E",
+    "#7F77DD",
+    "#378ADD",
+    "#1D9E75",
+    "#E8A33D",
+    "#9C6ADE",
+    "#D85A30",
+    "#4FB6C7"
+  ],
+  "background": "#0B1229",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#7F77DD",
+  "good": "#1D9E75",
+  "neutral": "#E8A33D",
+  "bad": "#D4547E",
+  "maximum": "#7F77DD",
+  "center": "#378ADD",
+  "minimum": "#0B1229",
+  "null": "#4A5170",
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#141B33" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "radius": 10,
+            "color": { "solid": { "color": "#1F2A4D" } }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#0B1229" } }
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 12,
+            "bold": true,
+            "background": { "solid": { "color": "#141B33" } }
+          }
+        ],
+        "subTitle": [
+          {
+            "fontColor": { "solid": { "color": "#9AA4B8" } },
+            "fontSize": 10
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#C9D0E0" } },
+            "gridlineColor": { "solid": { "color": "#1F2A4D" } },
+            "axisType": "Categorical"
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#C9D0E0" } },
+            "gridlineColor": { "solid": { "color": "#1F2A4D" } }
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#C9D0E0" } },
+            "fontSize": 9
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#E8ECF5" } },
+            "fontSize": 11
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#7F77DD" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#141B33" } }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1A2440" } }
+          }
+        ],
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "background": { "solid": { "color": "#1A2440" } }
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          { "show": true, "color": { "solid": { "color": "#141B33" } } }
+        ]
+      }
+    },
+    "shape": {
+      "*": {
+        "fill": [
+          { "show": true, "fillColor": { "solid": { "color": "#141B33" } } }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0B1229" } },
+            "transparency": 0
+          }
+        ],
+        "wallpaper": [
+          {
+            "color": { "solid": { "color": "#0B1229" } }
+          }
+        ]
+      }
+    }
+  },
+
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF",
+      "fontSize": 20
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF",
+      "fontSize": 13
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#C9D0E0",
+      "fontSize": 10
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF",
+      "fontSize": 28
+    }
+  }
+}
